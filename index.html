@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Thomas's website(uncover)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar for web-browser -->
+    <nav class="navbar"> 
+        <ul>
+            <li>
+                <a href="#home" class="nav-text">HOME</a>
+            </li>
+            <li>
+                <a href="#projects" class="nav-text">PROJECTS</a>
+            </li>
+            <li>
+                <a href="#certificates" class="nav-text">CERTIFICATES</a>
+            </li>
+            <li>
+                <a href="#about" class="nav-text">ABOUT ME</a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-text">CONTACT</a>
+            </li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle">🌙</button>
+    </nav>
+<!-- website for hover -->
+
+    <nav class="navbar-hover"> 
+        <ul>
+            <li>
+                <a href="#home" class="nav-text">HOME</a>
+            </li>
+            <li>
+                <a href="#projects" class="nav-text">PROJECTS</a>
+            </li>
+            <li>
+                <a href="#certificates" class="nav-text">CERTIFICATES</a>
+            </li>
+            <li>
+                <a href="#about" class="nav-text">ABOUT ME</a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-text">CONTACT</a>
+            </li>
+        </ul>
+        <button class="theme-toggle" id="themeToggleHover">🌙</button>
+    </nav>
+
+    <!-- navbar for mobile responsive -->
+    <nav class="navbar-mobile"> 
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <button class="theme-toggle" id="themeToggleMobile">🌙</button>
+        <ul class="mobile-menu">
+            <li>
+                <a href="#home" class="nav-text">HOME</a>
+            </li>
+            <li>
+                <a href="#projects" class="nav-text">PROJECTS</a>
+            </li>
+            <li>
+                <a href="#certificates" class="nav-text">CERTIFICATES</a>
+            </li>
+            <li>
+                <a href="#about" class="nav-text">ABOUT ME</a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-text">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <header id="home" class="section hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Thomas</h1>
+                <p>Developer and creator. I build web experiences with performance and polish.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-media">
+                <img src="./me.jpg" alt="Hero placeholder image" />
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section gradient-1">
+        <div class="container two-col">
+            <div class="media-card about-image">
+                <img src="./meagain.jpg" alt="About section image placeholder" />
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <div class="about-text">
+                    <p class="intro-text">I'm a passionate developer and creative thinker who loves turning ideas into reality through code and design.</p>
+                    
+                    <div class="skills-section">
+                        <h3>What I Do</h3>
+                        <p>I specialize in web development, automation, and creating digital experiences that make a difference. From building responsive websites to developing automated solutions, I enjoy tackling challenges with both creativity and technical precision.</p>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>My Skills</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">Web Scraping</span>
+                            <span class="skill-tag">Automation</span>
+                            <span class="skill-tag">NFT Development</span>
+                        </div>
+                    </div>
+                    
+                    <div class="interests-section">
+                        <h3>Beyond Coding</h3>
+                        <p>When I'm not coding, you'll find me exploring new technologies, working on creative projects, or thinking about the next big idea. I believe in continuous learning and pushing the boundaries of what's possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section gradient-2">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="grid">
+                <article class="card">
+                    <img src="./drawing.jpg" alt="Project image placeholder" />
+                    <h3>The imaginative Drawing</h3>
+                    <p>My inspiration was simple, and the question was "what am I?"</p>
+                </article>
+                <article class="card">
+                    <img src="./bot.png" alt="Project image placeholder" />
+                    <h3>The Automation</h3>
+                    <p>I developed an automation bot that monitors multiple scholarship websites for new openings and sends real-time alerts to a Telegram channel. The bot uses web scraping to extract scholarship details such as eligibility, deadlines, and application links. It then formats the information and delivers it automatically via Telegram messages, ensuring users never miss important opportunities. Built using Python, BeautifulSoup, and the Telegram Bot API, this project demonstrates practical automation, data extraction, and notification systems.</p>
+                </article>
+                <article class="card">
+                    <img src="./scholar.jpg" alt="Project image placeholder" />
+                    <h3>My personal NFT</h3>
+                    <p>🌱 Although this project is still in progress, I’m building an NFT collection that represents growth, confidence, and visibility. The vision is simple yet powerful: to prove that anyone can rise from nothing to something. This journey isn’t just about digital art—it’s about showing what’s possible when creativity meets perseverance.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section gradient-1">
+        <div class="container">
+            <h2>Certificates</h2>
+            <div class="grid small">
+                <div class="card">
+                    <img src="./meta.jpg" alt="Certificate image placeholder" />
+                    <h3>Built a Front-End website</h3>
+                </div>
+                <div class="card">
+                    <img src="./coursera.jpg" alt="Certificate image placeholder" />
+                    <h3>Writing my very own python scripts</h3>
+                </div>
+                <div class="card">
+                    <img src="./free_codecamp.jpg" alt="Certificate image placeholder" />
+                    <h3>Building a responsive web design</h3>
+                </div>
+                <!-- <div class="card">
+                    <img src="https://via.placeholder.com/400x300" alt="Certificate image placeholder" />
+                    <h3>Certificate D</h3>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section gradient-2">
+        <div class="container two-col">
+            <div>
+                <h2>Contact</h2>
+                <p>Have a question or want to collaborate? Send a message.</p>
+                <form class="contact-form" onsubmit="return false;">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" aria-label="Your Name" />
+                        <input type="email" placeholder="Your Email" aria-label="Your Email" />
+                    </div>
+                    <textarea rows="5" placeholder="Your Message" aria-label="Your Message"></textarea>
+                    <button class="btn primary" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="media-card">
+                <img src="./contact.png" alt="Contact section image placeholder" />
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> Thomas. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
